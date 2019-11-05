@@ -6,7 +6,7 @@ Foi pego as threads "naquele momento", não precisou fazer uma busca em profundi
 Os subreddits foram pesquisados em paralelos.
 
 ## Como utilizar
-O nome do bot do Telegram criado foi @CrawlerGustavoOliveira, basta pesquisar por ele no próprio Telegram e fazer o procedimento descrito em Entrada. Como ta na nuvem não precisa rodar local.
+O nome do bot do Telegram criado foi @CrawlerGustavoOliveira, basta pesquisar por ele no próprio Telegram e fazer o procedimento descrito em Entrada. Como ta na nuvem (e com docker) não precisa rodar local.
 
 ## Tratamento de erros e exceções
 Também tratei os casos: se o corpo da mensagem foi muito grande, se a página não existe, se a página é privada e se a página foi movida (3xx).
@@ -18,9 +18,6 @@ Foi feito, com 100% de cobertura:
 Além dos testes unitários, esses foram os casos cobertos pelo teste de integração:
 
 ![current integration test](https://i.ibb.co/86CnQ3b/Screenshot-from-2019-09-24-07-35-43.png)
-
-## Docker
-Foi usado, inclusive na nuvem.
 
 ## Entrada
 - Lista com nomes de subreddits separados por ponto-e-vírgula (`;`). Ex: /NadaPraFazer cats;randomAopiuwetdsgf
